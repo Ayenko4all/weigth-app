@@ -1,0 +1,156 @@
+header{
+  margin: 0;
+  padding:0;
+  height:100vh;
+  width: 100%;
+  position: relative;
+  background-image: url("image/healthy-woman-legs-dark-136404.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+ul{
+   
+  display: inline;
+  position: absolute;
+   margin-top: 3%;
+}
+
+ul li{
+  display: inline;
+  list-style: none;
+}
+
+ul li a{
+
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  color: blueviolet;
+
+}
+
+ul li a:hover{
+  background: lightgrey;
+  color: blueviolet;
+}
+
+header .main{
+  color: aliceblue;
+  position: absolute;
+  margin-top: 20% ;
+  margin-left: 30%;
+  text-align: center;
+
+}
+
+header .main a{
+  background: blueviolet;
+  padding:18px 45px 18px 45px;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+
+header .main a:hover{
+  background: lightgrey;
+  color: blueviolet;
+  border-color: blueviolet;
+ transition: all 0.3s;
+}
+
+header .main h1{
+  font-size: 50px;
+}
+
+header .main h3{
+  font-weight: bold;
+  margin-bottom: 7%;
+}
+
+/* form */
+.container{
+  margin: 25% 0 0 35%;
+}
+
+.container form div{
+  display: block;
+  margin-bottom: 3%;
+}
+.container form div input{
+  padding: 10px 50px 10px 50px;
+}
+
+@media(max-width: 852px){
+  header .main {
+   
+    margin-top: 23%;
+    margin-left: 20%;
+   
+
+  }
+}
+
+@media(max-width: 745px) {
+  header .main {
+
+    margin-top: 23%;
+    margin-left: 14%;
+
+
+  }
+}
+
+@media(max-width: 624px) {
+  header .main {
+
+    margin-top: 40%;
+    margin-left: 15%;
+
+
+
+  }
+
+  header .main h1 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 450px) {
+  header .main {
+
+    margin-top: 40%;
+    margin-left: 2%;
+
+
+
+  }
+
+  header .main h1 {
+    font-size: 30px;
+  }
+
+  header .main h3{
+    margin-bottom: 10%;
+  }
+
+  ul li {
+    display: block;
+    list-style: none;
+    padding-bottom: 10px;
+   
+  }
+
+  ul li a{
+     font-size: 18px;
+  }
+  ul li a:hover {
+    background: transparent;
+  
+  }
+}
+

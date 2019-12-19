@@ -1,0 +1,219 @@
+body{
+   background-image: url("image/healthy-woman-legs-dark-136404.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+h1, h2,h3{
+     color: blueviolet;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+a{
+   color: blueviolet;
+}
+
+ul li a {
+
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+    color: blueviolet;
+
+}
+
+ul li a:hover {
+  background: lightgrey;
+  color: blueviolet;
+}
+
+.register_login-content {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.register_login-content .form-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.register_login-content form div {
+  margin-bottom: 10px;
+}
+
+.register_login-content form p {
+  text-align: center;
+}
+
+.register_login-content form p a {
+  text-decoration: underline;
+}
+
+form label{
+  
+}
+
+.btn-big{
+  padding: 15px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+.text-input {
+  padding: .7rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  line-height: 1.5rem;
+  font-size: 1.2em;
+  font-family: 'Lora', serif;
+  background: rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+
+.weigth-container{
+  display: flex;
+}
+
+@media(max-width: 624px) {
+ .register_login-content {
+   width: 50%;
+   margin: 50px auto;
+   padding: 20px;
+   background: transparent;
+   border-radius: 5px;
+ }
+   .register_login-content .form-title {
+     font-size: 20px;
+   }
+}
+
+@media(max-width: 720px){
+  .search-box-div{
+    display:flex;
+
+  }
+}
+
+@media(max-width: 450px) {
+  
+
+  ul li {
+    display: block;
+    list-style: none;
+    padding-bottom: 10px;
+
+  }
+
+  ul li a {
+    font-size: 18px;
+  }
+
+  ul li a:hover {
+    background: transparent;
+
+  }
+
+ 
+   .search-box-div {
+     display: flex;
+     flex-wrap: wrap;
+    
+   }
+
+   .search-box {
+     margin-top: 3%;
+    
+
+   }
+   #display-per-num {
+   
+   }
+
+  table{
+    margin-top:10%;
+  }
+
+
+
+}
+
+
+/* table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  color:#ffffff;
+  
+}
+
+table th{
+  color: black;
+}
+
+table th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid rgb(180, 206, 180);
+}
+
+.edit {
+  color: green
+}
+
+.delete {
+  color: red;
+}
+
+.pulished {
+  color: blue;
+}
+
+.pulished:hover,
+.delete:hover,
+.edit:hover {
+  text-decoration: underline;
+}
+
+.content{
+    overflow-x: scroll;
+}
+
+.search-box{
+ margin-left: 5%;
+}
+
+#display-per-num{
+  
+  margin-left: 5%;
+}
+
+.display-per-num option{
+  background: lightslategrey;
+}
+
+ .search-box-div {
+   display: flex;
+  justify-content: space-around;
+  margin:5%;
+  flex-direction: row;
+  
+
+
+ }
